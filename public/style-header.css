@@ -1,0 +1,55 @@
+.nav__responsive-ul {
+    display: none;
+}
+
+.nav {
+    background-color: #a18262;
+    display: flex;
+    width: 100% !important;
+}
+
+.nav__li {
+    display: inline-block;
+    padding: 12px;
+    color: #fff;
+}
+
+.nav__li:hover > a {
+    color: #bbb;
+}
+
+.nav__li:hover {
+    color: #bbb;
+}
+
+
+.nav__li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__li i {
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-left: 40px;
+}
+
+.nav__ul {
+    align-self: center;
+    margin-left: auto;
+    padding-right: 30px;
+}
+
+.logo___nav {
+    padding: 10px;
+    height: 180px;
+    width: 180px;
+    padding-left: 25px;
+
+}
