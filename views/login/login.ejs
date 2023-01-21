@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LOGIN</title>
+    <link rel="stylesheet" href="style-header.css">
+    <link rel="stylesheet" href="style-footer.css">
+    <title>Iniciar sesion</title>
+    <script
+      src="https://kit.fontawesome.com/2c68f32e2b.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
-      <ul>
-        <li>
-          <a href="http://localhost:4000/">Inicio</a>
-        </li>
-        <li>
-          <a href="/Menu">Menu</a>
-        </li>
-        <li>
-          <a href="http://localhost:4000/contacto">Contacto</a>
-        </li>
-        <li>
-          <a href="http://localhost:4000/register">Registrate</a>
-        </li>
-        <li>
-          <a href="http://localhost:4000/login">Iniciar sesion</a>
-        </li>
-      </ul>
+      <nav class="nav">
+        <img src="logo.png" class="logo__nav" />
+        <ul class="nav__ul">
+          <li class="nav__li">
+            <i class="fas fa-home"></i
+            ><a href="http://localhost:4000/">Inicio</a>
+          </li>
+          <li class="nav__li">
+            <i class="fa-solid fa-utensils"></i><a href="/Menu">Menú</a>
+          </li>
+          <li class="nav__li">
+            <i class="fa-solid fa-phone"></i
+            ><a href="http://localhost:4000/contacto">Contacto</a>
+          </li>
+          <li class="nav__li">
+            <i class="fa-solid fa-registered"></i
+            ><a href="http://localhost:4000/register">Registrate</a>
+          </li>
+          <li class="nav__li">
+            <i class="fa-solid fa-user-large"></i
+            ><a href="http://localhost:4000/login">Iniciar sesion</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <h1>LOGIN</h1>
     
@@ -35,5 +49,5 @@
       <button type="submit">Send</button>
 
     </form>
-  </body>
-</html>
+
+<%- include('../partials/footer'); %>

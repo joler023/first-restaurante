@@ -15,6 +15,11 @@ app.get("/contacto", (req, res) => {
   res.render("contacto");
 });
 
+app.get("/menu", (req, res) => {
+  res.render("menu");
+});
+
+
 // app.post("/register", LoginController.storeUser)
 app.get("/login", LoginController.login)
 // app.post("/login", LoginController.auth)
