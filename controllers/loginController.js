@@ -1,11 +1,14 @@
 const bcrypt = require("bcrypt");
 
-const register = (req, res) => {
-  res.render("login/register");
-  req.session.loggedin = false;
-};
-
 let yaSeLoggeo = false
+
+const register = (req, res) => {
+  if(yaSeLoggeo != true){
+    res.render("login/register");
+    }else{
+      res.redirect('/')
+    }
+};
 
 const login = (req, res) => {
   if(yaSeLoggeo != true){
