@@ -76,9 +76,18 @@ const storeUser = (req, res) => {
   });
 };
 
+const logout = (req,res)=>{
+  if(req.session.loggedin == true){
+    req.session.destroy();
+  }else{
+    res.redirect('/login')
+  }
+}
+
 module.exports = {
   login,
   register,
   storeUser,
   auth,
+  logout
 };

@@ -49,6 +49,8 @@ const LoginController = require('./controllers/loginController')
 //routes post
 app.post("/register", LoginController.storeUser)
 app.post("/login", LoginController.auth)
+app.get("/logout", LoginController.logout)
+
 
 app.listen(app.get("port"), () => {
   console.log(`server ${app.get("appName")} on port ${app.get("port")}`);
