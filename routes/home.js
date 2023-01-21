@@ -1,12 +1,26 @@
-const {Router} = require('express')
+const express = require('express')
+const LoginController = require('../controllers/loginController')
 
-const router = Router()
+const app = express.Router()
 
-router.get("/", (req, res) => {
+app.use(express.text())
+app.use(express.json())
+
+
+app.get("/", (req, res) => {
   res.render("inicio");
 });
-router.get("/contacto", (req, res) => {
+
+app.get("/contacto", (req, res) => {
   res.render("contacto");
 });
 
-module.exports = (router)
+// app.post("/register", LoginController.storeUser)
+app.get("/login", LoginController.login)
+// app.post("/login", LoginController.auth)
+app.get("/register", LoginController.register)
+
+
+
+
+module.exports = (app)
