@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <%- include('partials/header-contacto'); %>
 <div>
   <h1 class="contactanos">Contactanos</h1>
@@ -51,3 +52,58 @@
 </div>
 <script src="contacto.js"></script>
 <%- include('partials/footer'); %>
+=======
+<%- include('partials/header-contacto'); %>
+<div>
+  <h1 class="contactanos">Contactanos</h1>
+</div>
+<div class="form-container">
+  <div class="form">
+    <form
+      action="https://formsubmit.co/3aac75d5686ac48c99a799aa8aa1ee9e"
+      method="POST"
+    >
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Escriba su Nombre"
+        class="name enviar"
+      />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Esciba su Email"
+        class="email enviar"
+      />
+      <textarea
+        name="msg"
+        id="msg"
+        cols="30"
+        rows="10"
+        class="mensaje enviar"
+        placeholder="Escriba su Mensaje"
+      ></textarea>
+      <input type="hidden" name="_next" value="http://localhost:4000" />
+      <input type="hidden" name="_captcha" value="false" />
+      <br><br>
+      <input type="submit" class="submit"/>
+    </form>
+  </div>
+  <div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum harum,
+      voluptatem laudantium necessitatibus soluta aliquam accusantium neque sint
+      minima. Aliquid harum veniam odio reprehenderit, id quis hic porro cum
+      sit!
+    </p>
+    <img
+      src="https://cdn.xxl.thumbs.canstockphoto.es/el-desarrollador-de-la-web-funciona-en-port%C3%A1til-clipart-vectorial_csp42219256.jpg"
+      class="img-contacto"
+    />
+  </div>
+</div>
+<script src="contacto.js"></script>
+<%- include('partials/footer'); %>
+>>>>>>> 485bea0e3552e626b19ee6847203c7577875b243

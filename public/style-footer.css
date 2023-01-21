@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .logo {
     border-radius: 50%;
     margin-left: 5px;
@@ -46,4 +47,54 @@
 
 .direccion {
     padding-left: 6px;
+=======
+.logo {
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.footer {
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    margin-bottom: -8px;
+}
+
+.copyr {
+    align-self: center;
+    margin-left: 10%;
+}
+
+.nosotros {
+    font-size: 11px;
+    margin-top: 20px;
+}
+
+.redes-sociales {
+    margin-left: auto;
+    padding-right: 70px;
+    display: flex;
+}
+
+.facebook {
+    height: 22px;
+    width: 22px;
+    margin: auto;
+    margin-right: 20px;
+}
+
+.instagram {
+    height: 25px;
+    width: 25px;
+    margin: auto;
+}
+
+.facebook:hover {
+    background-color: white;
+}
+
+.direccion {
+    padding-left: 6px;
+>>>>>>> 485bea0e3552e626b19ee6847203c7577875b243
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {margin: 0}
 
 .logo__nav {
@@ -82,3 +83,89 @@ textarea {
     height: 450px;
     width:  600px;
 }
+=======
+body {margin: 0}
+
+.logo__nav {
+    padding: 10px;
+    height: 180px;
+    width: 180px;
+    padding-left: 25px;
+}
+
+.contactanos {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 60px;
+    color: #a18262;
+    font-family: "Libre Baskerville", serif;
+}
+
+.contactanos-descripcion {
+    font-family: "Libre Baskerville", serif;
+    margin: 10px;
+}
+
+.form {
+    margin-bottom: 400px;
+    margin-top: 110px;
+}
+
+.name {
+    width: 500px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.email {
+    width: 500px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    height: 100px;
+    min-height: 100px;
+    max-height: 150px;
+    width: 501px;
+    max-width: 501px;
+    min-width: 501px;
+}
+
+.enviar {
+    margin-left: 9%;
+    border: none;
+    border-bottom: 2px solid #a18262;
+    border-radius: 5px;
+}
+
+
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px
+}
+
+.submit {
+    background-color: #a18262;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 260px;
+    height: 40px;
+    margin-left: 60px;
+}
+
+.submit:hover {
+    background-color: #af8262;
+    cursor: pointer;
+}
+
+.img-contacto {
+    height: 450px;
+    width:  600px;
+}
+>>>>>>> 485bea0e3552e626b19ee6847203c7577875b243
